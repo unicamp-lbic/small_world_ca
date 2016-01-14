@@ -1,0 +1,16 @@
+ca_size = 149
+ca_iterations = 299 # ca_size * 2 + 1
+ca_repeat = 4480
+population_size = 100
+max_epochs = 50
+k_history = 13
+
+save_executions = 22 # int(.005 * ca_repeat)
+
+tourney_size = 5
+mutation_rate = 50.
+standard_deviation = 0.0
+
+connection_radius = 3
+
+save_images = True
