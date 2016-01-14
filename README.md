@@ -24,21 +24,21 @@ can create heterogeneity of behavior.
 
 ## Usage
 
-usage: evolve_ca.py [-h] [--folder FOLDER] [--min-p MIN_P] [--max-p MAX_P]
-                    [--step-p STEP_P]
-                    config_file
-
-Simulate the evolution of small-world elementary cellular automata.
-
-positional arguments:
-  config_file      File containing the configuration for the ECAs to evaluated
-
-optional arguments:
-  -h, --help       show this help message and exit
-  --folder FOLDER  Folder in which the result of the simulation will be stored
-  --min-p MIN_P    The smallest amount of rewiring that will be tested
-  --max-p MAX_P    The largest amount of rewiring that will be tested
-  --step-p STEP_P  The increment in the amount of rewiring in each test
-                   performed
+    usage: evolve_ca.py [-h] [--folder FOLDER] [--min-p MIN_P] [--max-p MAX_P]
+                        [--step-p STEP_P]
+                        config_file
+    
+    Simulate the evolution of small-world elementary cellular automata.
+    
+    positional arguments:
+      config_file      File containing the configuration for the ECAs to evaluated
+    
+    optional arguments:
+      -h, --help       show this help message and exit
+      --folder FOLDER  Folder in which the result of the simulation will be stored
+      --min-p MIN_P    The smallest amount of rewiring that will be tested
+      --max-p MAX_P    The largest amount of rewiring that will be tested
+      --step-p STEP_P  The increment in the amount of rewiring in each test
+                       performed
 
 To run the code you need to have Python 2 and PyCUDA installed.
