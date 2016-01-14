@@ -1,4 +1,5 @@
-The role of the interaction network in the emergence of diversity of behavior
+# The role of the interaction network in the emergence of diversity of behavior
+
 Authors: Godoy, Tabacof & Von Zuben
 
 ## Abstract
